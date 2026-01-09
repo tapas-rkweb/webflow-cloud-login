@@ -1,7 +1,9 @@
 {
-  "framework": "astro",
-  "installCommand": "npm install",
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "nodeVersion": "20"
+  "cosmic": {
+    "framework": "astro",
+    "installCommand": "npm install",
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist",
+    "nodeVersion": "20"
+  }
 }

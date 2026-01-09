@@ -1,19 +1,9 @@
 {
   "cosmic": {
-    "framework": {
-      "name": "astro",           // 🔄 CHANGED: framework is now an object
-      "category": "frontend",    // 🔄 NEW: explicit category
-      "version": "3.0.0"         // 🔄 NEW: Astro version from your package.json
-    },
-    "commands": {
-      "install": "npm install",  // 🔄 CHANGED: moved under commands
-      "build": "npm run build"   // 🔄 CHANGED: moved under commands
-    },
-    "output": {
-      "directory": "dist"        // 🔄 CHANGED: moved under output
-    },
-    "runtime": {
-      "node": "20"               // 🔄 CHANGED: moved under runtime
-    }
+    "framework": "vite",
+    "installCommand": "npm install",
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist",
+    "nodeVersion": "20"
   }
 }

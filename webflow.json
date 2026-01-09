@@ -1,11 +1,13 @@
 {
   "cosmic": {
     "framework": {
-      "name": "node",        // 🔄 CHANGED: framework is now an object
-      "version": "20"        // 🔄 NEW: version moved inside framework
+      "name": "astro",          // 🔄 CHANGED: framework is now an object with "name"
+      "category": "static-site",// 🔄 NEW: explicit category to help detection
+      "version": "3.0.0"        // 🔄 NEW: specify Astro version
     },
     "installCommand": "npm install",
     "buildCommand": "npm run build",
-    "outputDirectory": "dist"
+    "outputDirectory": "dist",
+    "nodeVersion": "20"
   }
 }

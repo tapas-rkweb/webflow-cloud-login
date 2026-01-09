@@ -1,8 +1,8 @@
 {
   "cosmic": {
     "framework": {
-      "name": "node",        
-      "version": "20"        
+      "name": "node",        // 🔄 CHANGED: framework is now an object
+      "version": "20"        // 🔄 NEW: version moved inside framework
     },
     "installCommand": "npm install",
     "buildCommand": "npm run build",
